@@ -47,6 +47,13 @@ export default function Header() {
           )}
         </div>
       </div>
+
+      {/* Desktop Footer Info */}
+      <div className="mt-4 pt-3 border-t border-border">
+        <p className="text-xs text-text-tertiary font-inter text-center">
+          All processing happens locally in your browser • Your documents never leave your device
+        </p>
+      </div>
     </header>
   );
 }
